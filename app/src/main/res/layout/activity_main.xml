@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/design_default_color_primary_dark"
+        android:minHeight="?attr/actionBarSize"
+        app:titleTextColor="@android:color/white"></android.support.v7.widget.Toolbar>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:gravity="center_horizontal"
+        android:text="@string/welcome_to_alc_4_0"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#020005"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:typeface="normal"
+        app:fontFamily="sans-serif" />
+
+    <Button
+        android:id="@+id/btn_about_alc"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="150dp"
+        android:background="#FFC107"
+        android:onClick="showAbout"
+        android:text="@string/about_alc"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        app:fontFamily="sans-serif" />
+
+    <Button
+        android:id="@+id/btn_my_profile"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="120dp"
+        android:background="#FFC107"
+        android:onClick="showProfile"
+        android:text="@string/my_profile"
+        android:textStyle="bold"
+        app:fontFamily="sans-serif" />
+
+
+
+
+</LinearLayout>

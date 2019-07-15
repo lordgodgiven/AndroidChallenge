@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">AndroidChallenge</string>
+    <string name="welcome_to_alc_4_0">Welcome to ALC 4.0</string>
+    <string name="title_home">ALC 4 Phase 1</string>
+    <string name="title_about_alc">About ALC</string>
+    <string name="title_my_profile">My Profile</string>
+    <string name="my_profile">MY PROFILE</string>
+    <string name="about_alc">ABOUT ALC</string>
+    <string name="profileimage">ProfileImage</string>
+    <string name="track">Track :</string>
+    <string name="slack_username">Slack Username :</string>
+    <string name="slack_username_account">"@Dieudonne"</string>
+    <string name="_242_06_691_02_73">+242 06 691 02 73</string>
+    <string name="phone_number">Phone number :</string>
+    <string name="dieudonn_nieme">Dieudonné NIEME</string>
+    <string name="email">Email :</string>
+    <string name="congo">Congo</string>
+    <string name="country">Country :</string>
+    <string name="android">Android</string>
+    <string name="alc_4_phase_1">ALC 4 Phase 1</string>
+</resources>
