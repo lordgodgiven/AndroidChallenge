@@ -59,7 +59,7 @@ public class AboutActivity extends AppCompatActivity {
                 alertDialog.setButton(DialogInterface.BUTTON_NEGATIVE, "Cancel", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i) {
-                        handler.proceed();
+                        handler.cancel();
                     }
                 });
                 alertDialog.show();
